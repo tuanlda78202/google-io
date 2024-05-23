@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Google, IO, Extended, Hanoi, 2023, GDG">
+    <meta name="description" content="Google IO Extended Hanoi 2023">
+    <meta property="og:image" content="images/logo/thumbnail.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="900">
+    <meta property="og:site_name" content="Google IO Extended"> 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Google IO Extended">
+    <!-- <meta name='og:image' content='images/logo/hanoi.png'> -->
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For Window Tab Color -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#6A45FF">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#6A45FF">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#6A45FF">
+    <title>Google I/O Extended Hanoi 2023</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="images/logo/hanoi.png">
+    <!-- Main style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <!-- responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2E3V4KX3GE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2E3V4KX3GE');
+    </script>
+</head>
+
+<body>
+    <div class="main-page-wrapper" id="home">
+        <!-- ===================================================
+        Loading Transition
+    ==================================================== -->
+        <div id="preloader">
+            <div id="ctn-preloader" class="ctn-preloader">
+                <div class="animation-preloader">
+                    <div class="icon">
+                        <img src="images/logo/hanoi.png" alt="" class="m-auto d-block" width="80">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        =============================================
+            Theme Main Menu
+        ==============================================
+        -->
+        <header class="theme-main-menu sticky-menu theme-menu-eight border-bottom">
+            <div class="inner-content position-relative">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="logo order-lg-0">
+                        <a href="https://www.facebook.com/GDGhanoi" class="d-block">
+                            <img src="images/logo/logo-02.png" alt="" width="145">
+                        </a>
+                    </div>
+
+                    <div class="right-widget ms-auto ms-lg-0 d-flex align-items-center order-lg-3">
+                        <a href="#register-form" class="btn-twentyOne fw-500 tran3s d-none d-lg-block">Register
+                            today!</a>
+                    </div> <!-- /.right-widget -->
+
+                    <nav class="navbar navbar-expand-lg order-lg-2">
+                        <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="d-block d-lg-none">
+                                    <div class="logo"><a href="index.html" class="d-block" style="margin: 0 auto;"><img
+                                                src="images/logo/logo-02.png" height="30px" alt=""></a></div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center" href="#home" role="button">About Google I/O Extended
+                                    </a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                <a class="nav-link text-center" href="#speakers" role="button">Speakers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#agenda" role="button">Agenda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#partner" role="button">Partners</a>
+                            </li> -->
+                                <!-- <li class="nav-item">
+                                <a class="nav-link text-center" href="#about-event" role="button">About us</a>
+                            </li> -->
+                            </ul>
+                            <!-- Mobile Content -->
+                            <div class="mobile-content d-block d-lg-none">
+                                <div class="d-flex flex-column align-items-center justify-content-center mt-70">
+                                    <a href="#register-form" class="btn-twentyOne fw-500 tran3s">Register today!</a>
+                                </div>
+                            </div> <!-- /.mobile-content -->
+                        </div>
+                    </nav>
+                </div>
+            </div> <!-- /.inner-content -->
+        </header> <!-- /.theme-main-menu -->
+
+
+        <!--
+        =============================================
+            Theme Hero Banner
+        ==============================================
+        -->
+        <div class="hero-banner-two position-relative pt-200 lg-pt-150 md-pt-150">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="block-style-seven wow fadeInLeft" style="animation-name: fadeInLeft;">
+                            <div class="title-style-one">
+                                <img src="images\logo\google_io_01.webp" width="90%" style="" alt="">
+                            </div>
+                            <ul class="style-none list-item">
+                                <h1 href="" class="tran3s fs-17 fw-500 mb-25 ms-2 me-3"
+                                    style="scale: 1.1; padding-left: 26px; font-size: 20px">Organized by Google
+                                    Developer
+                                    Group Hanoi
+                                </h1>
+                                <br>
+                                <h1 href="" class="tran3s fs-17 fw-500 mb-25 ms-2 me-3"
+                                    style="scale: 1.1; padding-left: 26px; font-size: 20px">Time: 13:00 - 17:30,
+                                    Saturday,
+                                    July 22, 2023
+                                </h1>
+                                <br>
+                                <h1 href="" class="tran3s fs-17 fw-500 mb-25 ms-2 me-3"
+                                    style="scale: 1.1; padding-left: 26px; font-size: 20px">Venue: Hanoi, Vietnam</h1>
+                                <br>
+                                <a href="#register-form" class="tran3s fs-17 fw-500 btn-twenty mb-25 ms-2 me-3"
+                                    style="scale: 1.1;">Get the ticket!</a>
+                            </ul>
+                            <div class="d-sm-flex align-items-center platform-button-group-three mt-55 lg-mt-30">
+                            </div> <!-- /.platform-button-group-three -->
+                        </div> <!-- /.block-style-seven -->
+                    </div>
+                    <div class="col-xxl-5 col-lg-6 ms-auto">
+                        <img src="images\gallery\Web Element-01.png" alt="" style="margin: 0 5% 0 0; scale: 1.2;">
+                    </div>
+                    <div class="d-sm-flex justify-content-center align-items-center">
+                        <h1 class="hero-heading fw-normal font-recoleta position-relative cdwn">
+                            <div class="countdown">
+                                <!-- Image tags for each digit in DD:HH:MM:SS format -->
+                                <img id="day-ten" src="images\number\60px">
+                                <img id="day-one" src="images\number\60px">
+                                <span1> Days</span1>
+                                <img id="hour-ten" src="images\number\60px">
+                                <img id="hour-one" src="images\number\60px">
+                                <span1> Hours</span1>
+                                <img id="min-ten" src="images\number\60px">
+                                <img id="min-one" src="images\number\60px">
+                                <span1> Minutes</span1>
+                                <img class="countdown-second" id="sec-ten" src="images\number\60px">
+                                <img class="countdown-second" id="sec-one" src="images\number\60px">
+                                <span1 class="countdown-second"> Seconds</span1>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+            </div> <!-- /.container -->
+        </div> <!-- /.hero-banner-two -->
+
+        <!--
+        =====================================================
+            Fancy Short Banner Twelve
+        =====================================================
+        -->
+        <div class="fancy-short-banner-twelve position-relative zn2 pt-10 pb-20 lg-pt-10 lg-pb-40">
+            <div class="container">
+                <div class="wrapper position-relative" id="about-event">
+
+                    <img src="images/lazy.svg" data-src="images/logo/shape_1.png" alt=""
+                        class="lazy-img shapes d-xl-inline-block" style="height: 35%; left: 90%;">
+                    <div class="title-style-one mb-30">
+                        <!-- <h3 class="main-title fw-500 tx-dark m0" style="padding: 5%!important;">About Event</h3> -->
+                        <div class="row">
+                            <div class="col-xxl-9 col-xl-10 m-auto text-center">
+                                <div class="title-style-ten wow fadeInUp">
+                                    <img src="images\logo\updatelocation.webp" style="margin: 10px auto 8%;" width="40%"
+                                        alt="" onclick="window.open('https://gdg.community.dev/gdg-ha-noi/');">
+                                </div> <!-- /.title-style-ten -->
+                                <p class="text-lg mt-45 mb-55 lg-mb-30 lg-mt-40 wow fadeInUp" data-wow-delay="0.2s">
+                                    Google I/O Extended is the extended and localized version of Google I/O - the
+                                    biggest
+                                    tech conference from Google,
+                                    with the view to updating new technology and appropriate topics to meet the demand
+                                    of
+                                    the local community.
+                                    The year 2023 will be marking the eighth year of the event's presence in Hanoi, with
+                                    the
+                                    greatest scale and experience in the country.
+                                </p>
+                                <p class="text-lg mt-45 mb-55 lg-mb-30 lg-mt-40 wow fadeInUp" data-wow-delay="0.2s">
+                                    Google I/O Extended Hanoi 2023 is held for the community and connection, with 4 main
+                                    topics,
+                                    including: Technology in general, AI, Mobile, Web and Game,
+                                    alongside with a series of exhibitions to connect the IT community.
+                                    The event is expected to welcome up to 1000 participants, 15 speakers & experts, 10
+                                    exhibition booths,
+                                    20 partners, media agencies & news outlets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/lazy.svg" data-src="images/logo/shape_2.png" alt=""
+                        class="lazy-img shapes d-xl-inline-block" style="height: 30%; top: 93%; right: 90%;">
+                </div> <!-- /.fancy-short-banner-twelve -->
+
+
+                <!--
+        =====================================================
+            Team Section Two
+        =====================================================
+        -->
+                <div class="team-section-two position-relative pt-100 lg-pt-120">
+                    <div class="container">
+                        <div class="wrapper position-relative">
+
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="team-block-two mt-40 wow fadeInUp">
+                                        <div class="img-meta position-relative">
+                                            <img src="images/lazy.svg" data-src="images/logo/asset_01.png" alt=""
+                                                class="lazy-img team-img w-100">
+                                            <div class="info text-center">
+                                                <h5 class="tx-dark fs-20 mb-5">Technical Talk</h5>
+                                                <div class="tx-dark opacity-75">Explore Google's latest technologies
+                                                </div>
+                                            </div> <!-- /.info -->
+                                        </div> <!-- /.img-meta -->
+                                    </div> <!-- /.team-block-two -->
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="team-block-two mt-40 wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="img-meta position-relative">
+                                            <img src="images/lazy.svg" data-src="images/logo/asset_02.png" alt=""
+                                                class="lazy-img team-img w-100">
+                                            <div class="info text-center">
+                                                <h5 class="tx-dark fs-20 mb-5">Networking & Experience</h5>
+                                                <div class="tx-dark opacity-75">Meet and match with the experts &
+                                                    Challenge
+                                                    yourself
+                                                </div>
+                                            </div> <!-- /.info -->
+                                        </div> <!-- /.img-meta -->
+                                    </div> <!-- /.team-block-two -->
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="team-block-two mt-40 wow fadeInUp" data-wow-delay="0.4s">
+                                        <div class="img-meta position-relative">
+                                            <img src="images/lazy.svg" data-src="images/logo/asset_03.png" alt=""
+                                                class="lazy-img team-img w-100">
+                                            <div class="info text-center">
+                                                <h5 class="tx-dark fs-20 mb-5">Exhibition</h5>
+                                                <div class="tx-dark opacity-75">Connect with career opportunities and
+                                                    exclusive experiences
+                                                </div>
+                                            </div> <!-- /.info -->
+                                        </div> <!-- /.img-meta -->
+                                    </div> <!-- /.team-block-two -->
+                                </div>
+                            </div> <!-- /.row -->
+                        </div> <!-- /.wrapper -->
+                    </div> <!-- /.container -->
+                </div> <!-- /.team-section-two -->
+
+
+                <!--
+        =============================================
+            Feature Section Fifty Two
+        ==============================================
+        -->
+            </div>
+            <div class="mt-100 lg-mt-80 mb-30">
+                <div class="fancy-feature-fiftyTwo ">
+                    <div class="container">
+                        <div class="iframe-container d-flex align-items-center justify-content-center">
+                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/OcW57x8J5rM"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div> <!-- /.video-banner -->
+                    </div>
+                </div> <!-- /.fancy-feature-fiftyTwo -->
+            </div>
+
+            <div class="container">
+                <!--
+        =============================================
+            Feature Section Forty Two
+        ==============================================
+        -->
+                <!-- <div
+                class="fancy-feature-fortyOne position-relative pt-130 pb-100 lg-pt-80 lg-pb-80 xs-mt-120 wow fadeInUp">
+                <div class="container">
+                    <div class="wrapper position-relative" id="speakers">
+                        <div class="title-style-one mb-30">
+                            <h2 class="main-title fw-500 tx-dark m0" style="padding: 20px 0;">Our Speakers</h2>
+                        </div>
+                        <div class="slider-wrapper">
+                            <div class="tab-content position-relative zn2 wow fadeInUp">
+                                <div class="tab-pane active show" id="sp1">
+                                    <div class="speaker-container" id="dataspeaker">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>  -->
+            </div>
+        </div>
+        <!-- /.fancy-feature-fortyTwo -->
+    </div>
+    <!-- partial:index.partial.html -->
+
+    <!-- <div class="timeline-container" id="timeline-1" style="margin: 0 0 20px 0; background-color: #F9F9F9;">
+    <div class="timeline-header" id="agenda">
+        <h2 class="timeline-header__title">Agenda</h2>
+        <h3 class="timeline-header__subtitle">Google I/O Extended Hanoi 2023</h3>
+    </div>
+    <div class="timeline" id="timeline-all">
+        <div class="entries" id="datatimeline">
+        </div>
+    </div>
+</div> -->
+    <style>
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%;
+        }
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        .entries {
+            width: calc(100% - 80px);
+            max-width: 800px;
+            margin: auto;
+            position: relative;
+            left: -5px;
+        }
+
+        .entries .entry {
+            width: 500px;
+            float: left;
+            padding: 20px;
+            clear: both;
+            text-align: right;
+            display: grid;
+            grid-template-columns: 5fr 2fr;
+        }
+
+        .entries .entry:not(:first-child) {
+            margin-top: -60px;
+        }
+
+        .entries .entry .title {
+            font-size: 32px;
+            margin-bottom: 12px;
+            position: relative;
+            color: #000000;
+        }
+
+        .entries .entry .title:before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border: 4px solid #000000;
+            background-color: #000000;
+            border-radius: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -110px;
+            z-index: 0;
+        }
+
+        .entries .entry .title.big:before {
+            width: 24px;
+            height: 24px;
+            transform: translate(8px, -50%);
+        }
+
+        .entries .entry .body {
+            color: #aaa;
+            text-orientation: mixed;
+            writing-mode: vertical-lr;
+            margin-bottom: 20px;
+        }
+
+        .entries .entry .body p {
+            line-height: 1.4em;
+        }
+
+        .entries .entry:nth-child(2n) {
+            text-align: left;
+            float: right;
+        }
+
+        .entries .entry:nth-child(2n) .title:before {
+            left: -99px;
+        }
+
+        .entries .entry:nth-child(2n) .title.big:before {
+            transform: translate(-26px, -50%);
+        }
+    </style>
+
+    <!--   =============================================
+        Partner Data Page
+        ==============================================
+    -->
+    <!-- <div class="container" id="partner">
+    <div class="illustration-holder position-relative wow fadeInUp mb-30" data-wow-delay="0.2s">
+        <div class="bg-wrapper">
+            <img src="images/lazy.svg" data-src="images/gallery/group83.webp" alt=""
+                class="lazy-img main-screen w-100" style="padding-bottom: 60px;">
+        </div>
+    </div>
+</div> -->
+
+
+    <div class="container" style="background-image: url('images/logo/shape_7.webp'); padding-bottom: 30px;">
+        <div class="user-data-section d-flex align-items-center justify-content-center flex-column position-relative"
+            id="register-form" style="background: #ffffff29;">
+            <div class="form-wrapper position-relative m-auto">
+                <div class="text-center">
+                    <h2 class="tx-dark mb-30 lg-mb-10">Ready to Join the Google IO Extended Hanoi 2023!</h2>
+                    <p class="tx-dark mb-30 lg-mb-10">Fill out this form to get the free ticket from GDG Hanoi.
+                    </p>
+                </div>
+
+                <form action="" method="POST" id="user-data-form" class="user-data-form mt-40 lg-mt-30">
+                    <div id="form-container" class="row">
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Nguyễn Văn A" required>
+                                <span class="error-msg text-warning" id="nameError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Email</label>
+                                <input type="email" name="email" placeholder="example@gmail.com" required>
+                                <span class="error-msg text-warning" id="emailError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Phone number</label>
+                                <input type="text" name="phone" placeholder="0xxx xxx xxx" required>
+                                <span class="error-msg text-warning" id="phoneError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Year of Birth</label>
+                                <input type="number" min="1960" max="2010" step="1" placeholder="Select your birth year"
+                                    name="dob" required>
+                                <span class="error-msg text-warning" id="dobError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Job Title</label>
+                                <select id="jobOpt" type="text" name="jobTitle" required
+                                    style="background: transparent;border: 2px solid #000000;border-radius: 8px;color: #000000;font-family: GoogleSans;font-size: 17px;
+                                        height: 60px;line-height: 25.5px;padding: 0px 52px 0px 20px; transition: all 0.3s ease-in-out 0s;width: 100%;">
+                                    <option selected value="default" disabled>Select your occupation</option>
+                                    <option value="fresher">Fresher</option>
+                                    <option value="junior ">Junior Software Engineer</option>
+                                    <option value="senior">Senior Software Engineer</option>
+                                    <option value="manager">Product Manager</option>
+                                    <option value="ceo">VP/ Director Executive/ CEO</option>
+                                    <option value="ai">AI Engineer</option>
+                                    <option value="expert">Expert</option>
+                                    <option value="mar">Marketing</option>
+                                    <option value="poststu">Post Graduate student</option>
+                                    <option value="unstu">Undergraduate student</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="error-msg text-warning" id="jobTitleError"></span>
+                            </div>
+                        </div>
+                        <div id="otherJob" class="col-12 d-none">
+                            <div class="input-group-meta mb-30">
+                                <label>Other:</label>
+                                <input type="text" name="otherJob" placeholder="Your occupation">
+                                <span class="error-msg text-warning" id="otherJobError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Company</label>
+                                <input type="text" name="company"
+                                    placeholder="The organization that you are studying in or working for">
+                                <span class="error-msg text-warning" id="companyError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Place of Residence</label>
+                                <select type="text" name="location" id="location" required
+                                    style="background: transparent;border: 2px solid #000000;border-radius: 8px;color: #000000;font-family: GoogleSans;font-size: 17px;
+                                        height: 60px;line-height: 25.5px;padding: 0px 52px 0px 20px; transition: all 0.3s ease-in-out 0s;width: 100%;">
+
+                                </select>
+                                <span class="error-msg text-warning" id="locationError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Year of Experience</label>
+                                <input type="number" min="0" max="60" step="1" name="yoe"
+                                    placeholder="Type the number of year" required>
+                                <span class="error-msg text-warning" id="yoeError"></span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>How did you learn about the event?</label>
+                                <select id="eventOpt" type="text" name="eventTitle" required
+                                    style="background: transparent;border: 2px solid #000000;border-radius: 8px;color: #000000;font-family: GoogleSans;font-size: 17px;
+                                        height: 60px;line-height: 25.5px;padding: 0px 52px 0px 20px; transition: all 0.3s ease-in-out 0s;width: 100%;">
+                                    <option selected value="default" disabled>Select your answer</option>
+                                    <option value="website">Website</option>
+                                    <option value="fb ">Facebook GDG Hanoi</option>
+                                    <option value="linkedin">Linkedin</option>
+                                    <option value="email">Email</option>
+                                    <option value="network">Your network (Friends, Colleagues, etc.)</option>
+                                    <option value="news">Media/Newspaper</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="error-msg text-warning" id="eventTitleError"></span>
+                            </div>
+                        </div>
+
+                        <div id="otherEvent" class="col-12 d-none">
+                            <div class="input-group-meta mb-30">
+                                <label>Other:</label>
+                                <input type="text" name="otherEvent" placeholder="How did you learn about the event?">
+                                <span class="error-msg text-warning" id="otherEventError"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="input-group-meta mb-30">
+                                <label>Do you have any questions for us?</label>
+                                <input type="text" name="suggestion" placeholder="">
+                            </div>
+                        </div>
+                        <!-- <div class="g-recaptcha" data-sitekey="6LeYVGcmAAAAAKbD3rrQ31mm3gxESXC2aXlqKtjs"></div> -->
+                        <div class="col-12">
+                            <div class="agreement-checkbox d-flex justify-content-between align-items-center">
+                                <div>
+                                    <input type="checkbox" id="accept" name="term">
+                                    <label for="accept">I accept the
+                                        <a data-bs-toggle="modal" data-bs-target="#policyPopup">
+                                            Privacy Policy Google I/O Extended Hanoi 2023</a>
+                                    </label>
+                                </div>
+                            </div> <!-- /.agreement-checkbox -->
+                            <span class="error-msg text-warning" id="termError"></span>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn-twentyTwo w-100 fw-500 tran3s text-uppercase mt-30" id="submit-button"
+                                type="submit" value="submit">SUBMIT FORM
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> <!-- /.fancy-feature-fiftyOne -->
+
+        <!-- submit success -->
+        <div class="user-data-section d-flex align-items-center justify-content-center flex-column position-relative"
+            id="submit-success-form" style="display: none !important; background: #ffffff29;">
+            <div class="form-wrapper position-relative m-auto">
+                <div class="text-center">
+                    <h2 class="tx-dark mb-30 lg-mb-10">Thank you!</h2>
+                    <p class="fs-20 tx-dark">Your submission is well received, and we will contact you soon. Meanwhile,
+                        please stay tuned to our socials for the latest updates about Google I/O Extended Hanoi 2023!
+                        Follow us at <a href="https://www.facebook.com/GDGhanoi">here</a>.</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn-twentyTwo w-100 fw-500 tran3s text-uppercase mt-30"
+                        id="submit-button-agn">Register
+                        Again
+                    </button>
+                </div>
+            </div>
+        </div> <!-- /.fancy-feature-fiftyOne -->
+        <div class="user-data-section d-flex align-items-center justify-content-center flex-column position-relative"
+            id="loading-form" style="display: none !important; background: #ffffff29;">
+            <div class="form-wrapper position-relative m-auto">
+                <div class="animation-preloader loading-pos">
+                    <div class="icon">
+                        <img src="images/logo/hanoi.png" alt="" class="m-auto d-block" width="80">
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.fancy-feature-fiftyOne -->
+
+        <!-- submit fail -->
+        <div class="user-data-section d-flex align-items-center justify-content-center flex-column position-relative"
+            id="submit-fail-form" style="display: none !important; background: #ffffff29;">
+            <div class="form-fail-wrapper position-relative m-auto">
+                <div class="text-center">
+                    <h2 class="tx-dark mb-30 lg-mb-10">Something is wrong.</h2>
+                    <p class="fs-20 tx-dark">Please contact <a href="https://www.facebook.com/GDGhanoi"
+                            style="text-decoration: underline;">us</a> for help</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn-twentyTwo w-100 fw-500 tran3s text-uppercase mt-30"
+                        id="submit-button-agn-1">Register
+                        Again
+                    </button>
+                </div>
+            </div>
+        </div> <!-- /.fancy-feature-fiftyOne -->
+
+    </div>
+    <section class="sponsor-container">
+        <div class="sponsor">
+            <p>Organizer</p>
+            <img src='images/sponsors/gdg.webp' />
+        </div>
+
+        <div class="sponsor">
+            <p>Core Partner</p>
+            <img class="w-50" src='images/sponsors/nic.webp' />
+        </div>
+
+        <div class="sponsor">
+            <p>Diamond Sponsor</p>
+            <img class="w-50" src='images/sponsors/apero.webp' />
+        </div>
+
+        <div class="sponsor">
+            <p>Gold Sponsor</p>
+            <img src='images/sponsors/fsoft.webp' />
+        </div>
+
+        <div class="sponsor">
+            <p>Community Partner</p>
+            <div class="flex">
+                <img src='images/sponsors/gdsc.webp' />
+                <img src='images/sponsors/spiderum.webp' />
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <!--
+    =====================================================
+        Fancy Short Banner Sixteen
+    =====================================================
+    -->
+        <button class="scroll-top">
+            <i class="bi bi-arrow-up-short"></i>
+        </button>
+
+
+        <!--
+    =====================================================
+        Footer
+    =====================================================
+    -->
+        <div class="footer-style-eleven theme-basic-footer position-relative">
+
+            <div class="container">
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-lg-4 order-lg-2 mt-15">
+                            <ul
+                                class="d-flex justify-content-center justify-content-lg-end social-icon style-none order-lg-2">
+                                <li><a href="https://www.facebook.com/GDGhanoi"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="https://www.youtube.com/@googledevelopergrouphanoi-1144"><i
+                                            class="fab fa-youtube"></i></a></li>
+                                <li><a
+                                        href="https://www.linkedin.com/company/google-developer-group-hanoi---gdg-hanoi/about/"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 order-lg-0 mb-15">
+                        </div>
+                        <div class="col-lg-4 order-lg-1 mt-15">
+                            <p class="copyright text-center m0">Copyright @2023 Google Developer Group Hanoi<br> All
+                                right
+                                reserved</p>
+                        </div>
+                    </div>
+                </div> <!-- /.bottom-footer -->
+            </div> <!-- /.container -->
+        </div> <!-- /.footer-style-eleven -->
+
+
+        <!-- Optional JavaScript _____________________________  -->
+
+        <!-- jQuery first, then Bootstrap JS -->
+        <!-- jQuery -->
+        <script src="vendor/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- WOW js -->
+        <script src="vendor/wow/wow.min.js"></script>
+        <!-- Slick Slider -->
+        <script src="vendor/slick/slick.min.js"></script>
+        <!-- Fancybox -->
+        <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- Lazy -->
+        <script src="vendor/jquery.lazy.min.js"></script>
+        <!-- js Counter -->
+        <script src="vendor/jquery.counterup.min.js"></script>
+        <script src="vendor/jquery.waypoints.min.js"></script>
+        <!-- Nice Select -->
+        <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+        <!-- validator js -->
+        <script src="vendor/validator.js"></script>
+
+        <!-- Theme js -->
+        <script src="js/theme.js"></script>
+
+        <!-- countdown js -->
+        <script src="js/countdown.js"></script>
+
+        <!-- timeline js -->
+        <script src="js/timeline.js"></script>
+
+        <!-- recaptcha -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <!-- app -->
+        <script src="js/app.js"></script>
+
+        <!-- speaker -->
+        <script src="js/fetchdata.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            let scriptElement = document.createElement("script");
+            scriptElement.type = "text/javascript";
+            scriptElement.src = "js/*";
+
+            document.body.appendChild(scriptElement);
+        </script>
+    </div> <!-- /.main-page-wrapper -->
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="policyPopup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Policy</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Privacy Policy Google I/O Extended Hanoi 2023</h3>
+
+                    <p>This Privacy Policy describes how Google Developer Group Hanoi (hereinafter referred to as "GDG
+                        Hanoi") collects and uses your personal information when you participate in the "Google I/O
+                        Extended
+                        Hanoi 2023" event (hereinafter referred to as "Event"). This Privacy Policy does not apply to
+                        any
+                        products, services, websites or content that are provided by third parties or that use a
+                        separate
+                        privacy policy.</p>
+
+                    <h4>This policy includes the following content:</h4>
+
+                    <ol>
+                        <li>Personal information we collect</li>
+                        <li>How we use personal information</li>
+                        <li>How we share personal information</li>
+                        <li>Location of personal information</li>
+                        <li>How we protect personal information</li>
+                        <li>Access and selection</li>
+                        <li>Personal information of minors</li>
+                        <li>Term of storage of personal information</li>
+                        <li>Contact information, notices and amendments</li>
+                    </ol>
+
+                    <h4>1. Personal information we collect</h4>
+
+                    <p>We collect your personal information during your participation in the Event. Below are the
+                        sources of
+                        information we collect:</p>
+
+                    <ul>
+                        <li>Information you provide to us: We collect any information you provide in connection with the
+                            Event.
+                        </li>
+                        <li>Automatic Information: We automatically collect certain types of information when you
+                            participate in the Event.
+                        </li>
+                        <li>Information from other sources: We may collect information about you from other sources,
+                            including service providers, partners and publicly available sources.
+                        </li>
+                    </ul>
+
+                    <p>You primarily provide us with information when you:</p>
+
+                    <ul>
+                        <li>Search, register the Event;</li>
+                        <li>Create or manage your account on the Event's system, platform, and application;</li>
+                        <li>Contact us through all official means such as calling, messaging, email...;</li>
+                        <li>Complete questionnaires or other informational forms.</li>
+                    </ul>
+
+                    <p>Depending on your participation in the Event, you may provide us with information such as:</p>
+
+                    <ul>
+                        <li>Name, email address, address, phone number and other contact information;</li>
+                        <li>Information about your organization and your contacts, such as colleagues or people in your
+                            organization;
+                        </li>
+                        <li>Feedback, testimonials, questions, and exchanges with us;</li>
+                        <li>Your image (picture, video and in some cases 3-D), your voice and other personally
+                            identifiable
+                            characteristics when you attend the Event;
+                        </li>
+                        <li>Identity-related information, including government-issued identification information, and
+                            nationality.
+                        </li>
+                    </ul>
+
+                    <h5>2. How we use personal information</h5>
+
+                    <p>Our purposes of using personal information include:</p>
+
+                    <ul>
+                        <li>Event Organization: We use your personal information to provide Event-related information,
+                            including but not limited to registration, participation in advertising programs, and
+                            promotion.
+                        </li>
+                        <li>Make recommendations and personalize your experience: We use your personal information to
+                            recommend content that may be of interest to you, identify your interests, and personalize
+                            your
+                            experience at the Event.
+                        </li>
+                        <li>Comply with a legal obligation: In certain cases, we have a legal obligation to collect, use
+                            or
+                            store your personal information.
+                        </li>
+                        <li>Communication with you: We use your personal information to communicate with you about the
+                            Event-related matters through various channels (e.g. email, chat, SMS, phone call, etc.) and
+                            to
+                            answer your request.
+                        </li>
+                        <li>Marketing: We use your personal information to market and promote the Event as required by
+                            law.
+                        </li>
+                        <li>Some specific purposes require your consent: We may ask for your consent to use your
+                            personal
+                            information for a specific purpose when we contact you.
+                        </li>
+                    </ul>
+
+                    <h3>3. How we share personal information</h3>
+
+                    <p>Information about you is an important part of our operations, and we do not sell your personal
+                        information to others. We share your information with the Event sponsors, who are subject to
+                        this
+                        Privacy Policy or similar. Besides, we only share personal information as outlined below.</p>
+
+                    <ul>
+                        <li>Transactions involving third parties: We provide you with services, software and content
+                            provided by third parties for your use or through the Event. You can know when a third party
+                            is
+                            involved in your transactions and when we will share information related to those
+                            transactions
+                            with that third party.
+                        </li>
+                        <li>Restructuring, Business Transfer: During business development, we may sell or purchase legal
+                            entity or restructure other entity or services in accordance with the law. In such
+                            transactions,
+                            personal information, databases and the right to use information are generally among the
+                            transferred business assets, but the transferee is still subject to the provisions of this
+                            Policy (or with your consent). In addition, in the event that GDG Hanoi or most of GDG
+                            Hanoi's
+                            assets are purchased by another company, your information will become one of the transferred
+                            assets.
+                        </li>
+                        <li>Protect us and others: We disclose account and other personal information when we believe it
+                            is
+                            appropriate to comply with the law, to enforce or apply terms and agreements or to protect
+                            the
+                            rights, property or security of us, our customers, or any other person. The foregoing may
+                            include exchanging information with other companies and organizations to prevent and detect
+                            fraud and reduce asset and credit risks.
+                        </li>
+                        <li>Subject to your choice: In addition to the foregoing, you will receive notice when personal
+                            information about you may be shared with third parties and you will have the right not to
+                            consent to such use. share information.
+                        </li>
+                    </ul>
+
+                    <h5>4. Location of personal information</h5>
+
+                    <p>GDG Hanoi is a community of programmers active in Hanoi, Vietnam. Depending on the extent of your
+                        interaction with the Event, your personal information may be stored in or accessed not only
+                        within
+                        Vietnam but also from many countries. When we transfer your personal information to other
+                        countries,
+                        we will ensure that it is transferred in accordance with this Privacy Policy and is permitted
+                        under
+                        applicable privacy laws.</p>
+
+                    <h5>5. How we protect personal information</h5>
+
+                    <p>With GDG Hanoi, security is our highest priority. Our systems are designed with the safety and
+                        privacy of your information in mind. We have appropriate technical and security measures in
+                        place to
+                        prevent unauthorized access and use of personal information. We also regularly coordinate with
+                        security experts to update the latest information on network security to ensure the safety of
+                        personal information. When collecting data, we keep and secure personal information at the
+                        server
+                        system and this personal information is secured by firewalls, access control measures, data
+                        encrypt.</p>
+
+                    <h5>6. Access and Selection</h5>
+
+                    <p>You may view, update and delete certain information about your account and interactions at the
+                        Event.
+                        If you are unable to manually access or update your information, you can always contact us for
+                        assistance.</p>
+                    <p>If you want to add, update or delete your information, please contact us via email
+                        gdghanoi@gmail.com. When you update or delete any information, we usually keep a copy of the
+                        previous version for technical reasons.</p>
+
+                    <h5>7. Personal information of minors</h5>
+                    <p>If you are under 18 years of age, you must obtain the consent of a parent or guardian before
+                        entering into a contract and accepting this Privacy Policy.</p>
+
+                    <h5>8. Term of storage of personal information</h5>
+                    <p>We store your personal information to ensure your continued ability to participate in the Event,
+                        and store it for the period necessary to fulfill the objectives set forth in this Privacy
+                        Policy, or as required by law, or to perform other tasks as notified to you in advance. The term
+                        we retain specific personal information varies depending on the purpose of use, and we will
+                        delete your personal information in accordance with applicable laws.</p>
+                    <h5>9. Contact information, notices and amendments</h5>
+
+                    <p>If you have any questions about privacy at GDG Hanoi for the Event, please contact us and we will
+                        try to answer your questions. You may also contact us via email gdghanoi@gmail.com.</p>
+
+                    <p>The Event operations are subject to change and this Privacy Policy may also be amended. You
+                        should visit and check regularly to stay up to date with the most recent changes. Amending this
+                        Policy in no event will reduce the level of protection of personal information collected in the
+                        past without notifying you and giving you a choice.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="onClickUnderStood()">
+                        Understood
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

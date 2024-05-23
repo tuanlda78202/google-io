@@ -1,0 +1,23 @@
+<svg width="135" height="129" viewBox="0 0 135 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_0_2441" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="135" height="129">
+<rect width="135" height="129" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_2441)">
+<circle cx="19.5" cy="118.5" r="2.5" fill="black"/>
+<circle cx="54.5" cy="118.5" r="2.5" fill="black"/>
+<circle cx="89.5" cy="118.5" r="2.5" fill="black"/>
+<circle cx="124.5" cy="118.5" r="2.5" fill="black"/>
+<circle cx="54.5" cy="84.5" r="2.5" fill="black"/>
+<circle cx="19.5" cy="84.5" r="2.5" fill="black"/>
+<circle cx="89.5" cy="84.5" r="2.5" fill="black"/>
+<circle cx="124.5" cy="84.5" r="2.5" fill="black"/>
+<circle cx="54.5" cy="50.5" r="2.5" fill="black"/>
+<circle cx="19.5" cy="50.5" r="2.5" fill="black"/>
+<circle cx="89.5" cy="50.5" r="2.5" fill="black"/>
+<circle cx="124.5" cy="50.5" r="2.5" fill="black"/>
+<circle cx="54.5" cy="16.5" r="2.5" fill="black"/>
+<circle cx="19.5" cy="16.5" r="2.5" fill="black"/>
+<circle cx="89.5" cy="16.5" r="2.5" fill="black"/>
+<circle cx="124.5" cy="16.5" r="2.5" fill="black"/>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="110" height="122" viewBox="0 0 110 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1435_470" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="110" height="122">
+<rect y="122" width="122" height="110" transform="rotate(-90 0 122)" fill="white"/>
+</mask>
+<g mask="url(#mask0_1435_470)">
+<circle cx="4.5" cy="92.5" r="1.5" transform="rotate(-90 4.5 92.5)" fill="#2E2E2E"/>
+<circle cx="4.5" cy="54.5" r="1.5" transform="rotate(-90 4.5 54.5)" fill="#2E2E2E"/>
+<circle cx="4.5" cy="16.5" r="1.5" transform="rotate(-90 4.5 16.5)" fill="#2E2E2E"/>
+<circle cx="42.5" cy="92.5" r="1.5" transform="rotate(-90 42.5 92.5)" fill="#2E2E2E"/>
+<circle cx="42.5" cy="54.5" r="1.5" transform="rotate(-90 42.5 54.5)" fill="#2E2E2E"/>
+<circle cx="42.5" cy="16.5" r="1.5" transform="rotate(-90 42.5 16.5)" fill="#2E2E2E"/>
+<circle cx="80.5" cy="92.5" r="1.5" transform="rotate(-90 80.5 92.5)" fill="#2E2E2E"/>
+<circle cx="80.5" cy="54.5" r="1.5" transform="rotate(-90 80.5 54.5)" fill="#2E2E2E"/>
+<circle cx="80.5" cy="16.5" r="1.5" transform="rotate(-90 80.5 16.5)" fill="#2E2E2E"/>
+</g>
+</svg>

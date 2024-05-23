@@ -1,0 +1,25 @@
+{
+    "banner": "Organized by Google Developer Group HanoiTime: 13:00 - 18:00, Saturday, July 22, 2023 Venue: Hanoi, Vietnam",
+    "about": "Google I/O Extended is the extended and localized version of Google I/O - the biggest tech conference from Google, with the view to updating new technology and appropriate topics to meet the demand of the local community. The year 2023 will be marking the eighth year of the event's presence in Hanoi, with the greatest scale and experience in the country. Google I/O Extended ,Hanoi 2023 is held for the community and connection, with 4 main topics, including: Technology in general, AI, Mobile, Web and Game, alongside with a series of exhibitions to connect the IT community. The event is expected to welcome up to 1000 participants, 15 speakers & experts, 10 exhibition booths,  20 partners, media agencies & news outlets.",
+    "videoPreview": "https://youtu.be/OcW57x8J5rM",
+    "aboutUs": "As a pioneer in activities for the community of programmers and IT \n students in Hanoi, under the management of Google Developers, GDG Hanoi are authorized to exclusively organize many Google technology events in Hanoi in particular and Vietnam in general. Every year, GDG Hanoi bring a variety of programs, events, and major contests for the community to participate in and regularly connect support resources for the local IT community.",
+    "form": [
+      {
+        "fullName": "FullName",
+        "email": "Email",
+        "age": "Age",
+        "jobTitle": "Job Title",
+        "company": "Company",
+        "placeOfResidence": "Place of Residence",
+        "yearOfExperience": "Year of Experience",
+        "learnAbout": "How did you learn about the event?",
+        "question": "Do you have any questions for us?"
+      },
+      {
+        "acceptPolicy": "https://docs.google.com/document/d/11B6k0vadGolLd9BjfQCM11cqcc8kGbmkgiIM7cQecWA/edit?usp=sharing"
+      },
+      {
+        "footer": "Copyright @2023 Google Developer Group Hanoi"
+      }
+    ]
+  }
